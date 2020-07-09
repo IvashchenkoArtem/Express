@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
+  <title>Express</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Yanone+Kaffeesatz:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ed5bf6f175.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section class="head" id="head">
+    <div class="mainer">
+      <header class="header">
+        <a class="header__logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
+        <div class="header__col">
+          <div class="toggler__icon js-nav-toggle">
+            <span class="toggler__line"></span>
+          </div>
+        </div>
+
+
+        <ul class="header__menu js-navigation">
+          <li class="header__item">
+            <a class="header__link" href="#about">О компании</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#services">Услуги</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#rates">Тарифы </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#punkts">Пункты выдачи заказов </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#footer"> Контакты</a>
+          </li>
+        </ul>
+
+        <div class="header__phone">
+          <img class="header__phone-img" src="img/phone.png" alt="/">
+          <a href="/" class="header__phone-number">+7 (495) 795-97-88</a>
+        </div>
+      </header>
+      <h1 class="head__title">КУРЬЕРСКАЯ ДОСТАВКА
+        <span class="head__title-color">ПО МОСКВЕ И ПОДМОСКОВЬЮ</span>
+      </h1>
+
+      <button class="btn head__btn" data-fancybox data-src="#hiden-content">оформить заказ</button>
+    </div>
+  </section>
+
+  <section class="advantages">
+    <div class="mainer">
+      <div class="grid-wrapper">
+        <div class="block-advantages">
+          <div class="block-advantages__icon">
+            <img src="img/adv-1.png" alt="/">
+          </div>
+          <div class="block-advantages__line"></div>
+          <p class="block-advantages__text">быстро</p>
+        </div>
+        <div class="block-advantages">
+          <div class="block-advantages__icon">
+            <img src="img/adv-2.png" alt="/">
+          </div>
+          <div class="block-advantages__line"></div>
+          <p class="block-advantages__text">выгодно</p>
+        </div>
+        <div class="block-advantages">
+          <div class="block-advantages__icon">
+            <img src="img/adv-3.png" alt="/">
+          </div>
+          <div class="block-advantages__line"></div>
+          <p class="block-advantages__text">удобно</p>
+        </div>
+        <div class="block-advantages">
+          <div class="block-advantages__icon">
+            <img src="img/adv-4.png" alt="/">
+          </div>
+          <div class="block-advantages__line"></div>
+          <p class="block-advantages__text">надежно</p>
+        </div>
+      </div>
+
+      <div class="wrap-adv" id="about">
+        <div class="block-text">
+          <p class="block-text__desc">Служба доставки
+            <span class="block-text__desc-color">Экспресс Доставка</span>
+            специализируется на курьерской доставке заказов
+            в Москве и области.
+            А также располагает собственной сетью из
+            <span class="block-text__desc-color">36 пунктов выдачи заказов</span> <br>
+            в Москве и Подмосковье.</p>
+        </div>
+
+
+        <div class="block-img">
+          <img class="block-img__image" src="img/avto-adv.png" alt="/">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="form">
+    <div class="mainer">
+      <div class="wrap-form">
+        <p class="form-text">
+          ОСТАВЬТЕ ЗАЯВКУ СЕЙЧАС,
+          И ПОЛУЧИТЕ <span style="color: #f2b522;">СКИДКУ 10%</span>
+          НА ОБСЛУЖИВАНИЕ
+        </p>
+        <form action="" class="callback">
+          <div class="callback__container">
+            <img class="collback__icon" src="img/user.png" alt="/">
+            <input class="callback__field" type="text" name="name" placeholder="Имя" required />
+          </div>
+          <div class="callback__container">
+            <img class="collback__icon" src="img/phone-2.png" alt="/">
+            <input class="callback__field" type="text" name="phone" placeholder="Телефон" required />
+          </div>
+          <button class=" btn callback__submit">отправить заявку</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="services" id="services">
+    <div class="mainer">
+      <h2 class="services__title">
+        наши
+        <span style="color: #4fa929;">услуги</span>
+      </h2>
+
+      <div class="wrap-services">
+        <div class="block-services">
+          <div class="block-services__image">
+            <img class="block-services__img" src="img/serv-1.png" alt="/">
+          </div>
+          <p class="block-services__text">36 собственных пунктов выдачи заказов в Москве и Подмосковье</p>
+        </div>
+
+        <div class="block-services">
+          <div class="block-services__image">
+            <img class="block-services__img" src="img/serv-2.png" alt="/">
+          </div>
+          <p class="block-services__text">Курьерская доставка для Интернет-магазинов по Москве и области на следующий
+            день от 150р.</p>
+        </div>
+
+        <div class="block-services">
+          <div class="block-services__image">
+            <img class="block-services__img" src="img/serv-3.png" alt="/">
+          </div>
+          <p class="block-services__text">Переводим деньги через 1 рабочий день после доставки, каждый день</p>
+        </div>
+
+        <div class="block-services">
+          <div class="block-services__image">
+            <img class="block-services__img" src="img/serv-4.png" alt="/">
+          </div>
+          <p class="block-services__text">СМС-информирование покупателей о состоянии заказа</p>
+        </div>
+
+        <div class="block-services">
+          <div class="block-services__image">
+            <img class="block-services__img" src="img/serv-5.png" alt="/">
+          </div>
+          <p class="block-services__text">Вечерняя курьерская доставка, а также по выходным без дополнительной наценки
+          </p>
+        </div>
+
+        <div class="block-services">
+          <div class="block-services__image">
+            <img class="block-services__img" src="img/serv-6.png" alt="/">
+          </div>
+          <p class="block-services__text">API-интеграция и функциональный Личный кабинет</p>
+        </div>
+
+        <div class="block-services">
+          <div class="block-services__image">
+            <img class="block-services__img" src="img/serv-7.png" alt="/">
+          </div>
+          <p class="block-services__text">API-интеграция и функциональный Личный кабинет</p>
+        </div>
+
+        <div class="block-services">
+          <div class="block-services__image">
+            <img class="block-services__img" src="img/serv-8.png" alt="/">
+          </div>
+          <p class="block-services__text">Возможность частичного отказа от заказа со стороны покупателя</p>
+        </div>
+      </div>
+
+      <button class="btn services__btn" data-fancybox data-src="#hiden-content">оформить заказ</button>
+    </div>
+  </section>
+
+  <section class="rates" id="rates">
+    <div class="mainer">
+      <h2 class="rates__title">наши
+        <span style="color: #4fa929;">тарифы</span>
+      </h2>
+      <p class="rates__desc">Курьерская доставка по Москве</p>
+      <table class="table">
+        <tr class="table__caption">
+          <td class="table__caption">Вес, до</td>
+          <td class="table__caption">до 200 <br>
+            заказов в месяц</td>
+          <td class="table__caption">до 500 <br>
+            заказов в месяц</td>
+          <td class="table__caption">до 1500 <br>
+            заказов в месяц</td>
+          <td class="table__caption">от 1501 <br>
+            заказов в месяц</td>
+        </tr>
+
+        <tr>
+          <td>1 кг</td>
+          <td>230 р</td>
+          <td>230 р</td>
+          <td>230 р</td>
+          <td>230 р</td>
+        </tr>
+
+        <tr>
+          <td>3 кг</td>
+          <td>250 р</td>
+          <td>250 р</td>
+          <td>250 р</td>
+          <td>250 р</td>
+        </tr>
+
+        <tr>
+          <td>5 кг</td>
+          <td>270 р</td>
+          <td>270 р</td>
+          <td>270 р</td>
+          <td>270 р</td>
+        </tr>
+
+        <tr>
+          <td>10 кг</td>
+          <td>320 р</td>
+          <td>320 р</td>
+          <td>320 р</td>
+          <td>320 р</td>
+        </tr>
+
+        <tr>
+          <td>15 кг</td>
+          <td>415 р</td>
+          <td>415 р</td>
+          <td>415 р</td>
+          <td>415 р</td>
+        </tr>
+
+        <tr>
+          <td>20 кг</td>
+          <td>475 р</td>
+          <td>475 р</td>
+          <td>475 р</td>
+          <td>475 р</td>
+        </tr>
+
+        <tr>
+          <td>25 кг</td>
+          <td>565 р</td>
+          <td>565 р</td>
+          <td>565 р</td>
+          <td>565 р</td>
+        </tr>
+
+        <tr>
+          <td>Забор товара</td>
+          <td>250 р</td>
+          <td>250 р</td>
+          <td>250 р</td>
+          <td>250 р</td>
+        </tr>
+      </table>
+
+      <span class="rates__text">Кассовое обслуживание – 1,5%. Страховка – 0,5% (0,9% если заказ дороже 40 000 руб.).
+        Доставка за МКАД - 11 рублей за каждый километр.</span>
+
+      <h2 class="rates__subject" id="punkts">пункты
+        <span style="color: #4fa929;">выдачи заказов</span>
+      </h2>
+
+      <div class="tabs">
+        <ul class="tabs-nav">
+          <li class="active">Москва</li>
+          <li>Московская область</li>
+
+        </ul>
+        <div class="tabs-box">
+          <div class="active">
+            <div>
+              <table class="table">
+                <tr class="table__caption">
+                  <td class="table__caption">Вес, до</td>
+                  <td class="table__caption">до 200 <br>
+                    заказов в месяц</td>
+                  <td class="table__caption">до 500 <br>
+                    заказов в месяц</td>
+                  <td class="table__caption">до 1500 <br>
+                    заказов в месяц</td>
+                  <td class="table__caption">от 1501 <br>
+                    заказов в месяц</td>
+                </tr>
+
+                <tr>
+                  <td>1 кг</td>
+                  <td>230 р</td>
+                  <td>230 р</td>
+                  <td>230 р</td>
+                  <td>230 р</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div>
+            <div>
+              <table class="table">
+                <tr class="table__caption">
+                  <td class="table__caption">Вес, до</td>
+                  <td class="table__caption">до 200 <br>
+                    заказов в месяц</td>
+                  <td class="table__caption">до 500 <br>
+                    заказов в месяц</td>
+                  <td class="table__caption">до 1500 <br>
+                    заказов в месяц</td>
+                  <td class="table__caption">от 1501 <br>
+                    заказов в месяц</td>
+                </tr>
+
+                <tr>
+                  <td>1 кг</td>
+                  <td>230 р</td>
+                  <td>230 р</td>
+                  <td>230 р</td>
+                  <td>230 р</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="rates__text rates__text--foot">Кассовое обслуживание – 1,5%. Страховка – 0,5% (0,9% если заказ дороже
+        40 000
+        руб.).</span>
+    </div>
+  </section>
+
+  <section class="footer-form">
+    <div class="mainer">
+      <div class="wrap-footer-form">
+        <div class="footer-form-block">
+          <h2 class="footer-form-block__title">ОСТАЛИСЬ ВОПРОСЫ</h2>
+          <div class="footer-form-block__line"></div>
+          <p class="footer-form-block__text">Задайте их нашему
+            специалисту</p>
+        </div>
+
+        <form action="" class="callback-form">
+          <div class="callback-form__left">
+            <div class="callback-form__container">
+              <img class="collback-form__icon" src="img/user.png" alt="/">
+              <input class="callback-form__field" type="text" name="name" placeholder="Имя" required />
+            </div>
+            <div class="callback-form__container">
+              <img class="collback-form__icon" src="img/phone-2.png" alt="/">
+              <input class="callback-form__field" type="text" name="phone" placeholder="Телефон" required />
+            </div>
+            <div class="callback-form__wrap">
+              <input class="check" type="checkbox" id="agree">
+              <label for="agree">Нажимая на кнопку я принимаю
+                условия передачи информации</label>
+            </div>
+          </div>
+
+          <div class="callback-form__right">
+            <textarea placeholder="Сообщение"></textarea>
+            <button class=" btn callback-form__submit">задать вопрос</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="mainer">
+      <div class="wrapper-foot">
+        <header class="header header--foot">
+          <a class="header__logo header__logo--foot" href="#head"><img src="img/logo.png" alt="logo"></a>
+          <ul class="footer__menu ">
+            <li class="footer__item">
+              <a class="footer__link" href="#about">О компании</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#services">Услуги</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#rates">Тарифы </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#punkts">Пункты выдачи заказов </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#footer"> Контакты</a>
+            </li>
+          </ul>
+
+          <div class="header__phone header__phone--foot">
+            <img class="header__phone-img" src="img/phone.png" alt="/">
+            <a href="/" class="header__phone-number header__phone-number--foot">+7 (495) 795-97-88</a>
+          </div>
+        </header>
+        <div class="wrap-footer">
+          <div class="footer-text">
+            <p class="footer-text__desc">Курьерская доставка товаров</p>
+
+            <span class="footer-text__desc-color">по Москве и Подмосковью</span>
+          </div>
+          <div class="block-social">
+            <a class="block-social__link" href=""><i class="fab fa-vk"></i></a>
+            <a class="block-social__link" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="block-social__link" href=""><i class="fab fa-instagram"></i></a>
+            <a class="block-social__link" href=""><i class="fab fa-viber"></i></a>
+            <a class="block-social__link" href=""><i class="fab fa-telegram-plane"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <form action="" class="callback-modal" id="hiden-content">
+    <div class="callback-modal__container">
+      <img class="collback-modal__icon" src="img/user.png" alt="/">
+      <input class="callback-modal__field" type="text" name="name" placeholder="Имя" required />
+    </div>
+    <div class="callback-modal__container">
+      <img class="collback-modal__icon" src="img/phone-2.png" alt="/">
+      <input class="callback-modal__field" type="text" name="phone" placeholder="Телефон" required />
+    </div>
+    <button class=" btn callback-modal__submit">отправить заявку</button>
+  </form>
+
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+</body>
+
+</html>
